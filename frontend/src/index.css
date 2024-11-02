@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+
+.product-list {
+  padding: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.product-list h1 {
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: full;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  word-break: break-word;
+  gap: 30px;
+}
+
+.product-info {
+  flex-grow: 1;
+  overflow-wrap: break-word;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #e74c3c;
+  min-width: 60px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.url-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #2980b9;
+}
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  color: #333;
+}
