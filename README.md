@@ -2,6 +2,8 @@
 
 A simple web application to crawl product data from Amazon, built with ReactJS for the frontend and Node.js with Cheerio for the backend. The app extracts product details including product name, price, source URL, and date collected, and displays them in an organized UI.
 
+DEMO LINK: https://crawl-data-cheerio.vercel.app/
+
 ## Table of Contents
 
 - [Tech Stack](#tech-stack)
